@@ -1,0 +1,1 @@
+{"version":3,"file":"IMyTasksState.d.ts","sourceRoot":"","sources":["../../../../src/webparts/myTasks/components/IMyTasksState.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,cAAc,MAAM,kCAAkC,CAAC;AAEnE,MAAM,WAAW,aAAa;IAC5B,KAAK,EAAE,cAAc,CAAC,WAAW,EAAE,CAAC;IACpC,OAAO,EAAE,MAAM,CAAC;CACjB;AAED,MAAM,WAAW,cAAe,SAAQ,cAAc,CAAC,WAAW;IAChE,WAAW,EAAE,MAAM,CAAC;CACrB"}

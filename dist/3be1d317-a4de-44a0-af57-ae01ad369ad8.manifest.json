@@ -1,0 +1,72 @@
+{
+  "id": "3be1d317-a4de-44a0-af57-ae01ad369ad8",
+  "alias": "EmployeeProfileWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "EmployeeProfile"
+      },
+      "description": {
+        "default": "EmployeeProfile"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "EmployeeProfile"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "employee-profile-web-part",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "employee-profile-web-part": {
+        "type": "path",
+        "path": "dist/employee-profile-web-part.js"
+      },
+      "EmployeeProfileWebPartStrings": {
+        "defaultPath": "lib/webparts/employeeProfile/loc/en-us.js",
+        "type": "localizedPath"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "version": "1.10.0",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.9.1",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.10.0",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "react": {
+        "type": "component",
+        "version": "16.8.5",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "failoverPath": "node_modules/react/dist/react.js"
+      },
+      "react-dom": {
+        "type": "component",
+        "version": "16.8.5",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "failoverPath": "node_modules/react-dom/dist/react-dom.js"
+      }
+    }
+  }
+}

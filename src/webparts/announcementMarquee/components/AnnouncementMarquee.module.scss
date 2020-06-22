@@ -1,0 +1,68 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.announcementMarquee {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .marquee {
+    height: 25px;
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .marquee div {
+    display: block;
+    width: 200%;
+    height: 30px;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 15s linear infinite;
+  }
+
+  .marquee span {
+    float: left;
+    width: 100%;
+    font-family: proxima-nova,arial !important;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+
+    100% {
+      left: -100%;
+    }
+  }
+
+  .Titleheading {
+    font-family: 'proxima-nova';
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .description {
+    font-family: 'proxima-nova';
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    display: -webkit-box;
+    margin: 0;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+    max-height: 45px;
+    /*overflow: hidden;
+    text-overflow: ellipsis;*/
+  }
+}

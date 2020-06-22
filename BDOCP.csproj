@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C278F9E7-4879-4D29-9FFB-440B19EBD194}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BDOCP</RootNamespace>
+    <AssemblyName>BDOCP</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>%24/BDO_CPSP/06.Source-Code/02.Development/BDOCP</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://tfs:8080/tfs/microsoft%2520product%2520server%2520and%2520technologies</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".vscode\extensions.json" />
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\settings.json" />
+    <None Include="config\config.json" />
+    <None Include="config\copy-assets.json" />
+    <None Include="config\deploy-azure-storage.json" />
+    <None Include="config\package-solution.json" />
+    <None Include="config\serve.json" />
+    <None Include="config\write-manifests.json" />
+    <None Include="dist\004e1d81-166b-47ef-a6a8-8d1e222388a0.manifest.json" />
+    <None Include="dist\0585b8da-b586-49ad-a607-9c3db32219e9.manifest.json" />
+    <None Include="dist\0c20f6c6-c030-4bc3-b33d-efe572c1b899.manifest.json" />
+    <None Include="dist\0ce820b1-495a-4290-99fc-1b0e94d29ba6.manifest.json" />
+    <None Include="dist\197a4a00-e5cc-4536-953b-ea3f5494bd44.manifest.json" />
+    <None Include="dist\2a479741-a638-4dee-9652-b129a6979373.manifest.json" />
+    <None Include="dist\32d0b272-5a29-488c-a15b-521c1128bca5.manifest.json" />
+    <None Include="dist\3be1d317-a4de-44a0-af57-ae01ad369ad8.manifest.json" />
+    <None Include="dist\49ce26fc-a6c7-41d3-8302-fdde0d4537ba.manifest.json" />
+    <None Include="dist\4cd1adbe-3062-41d7-b951-056c00b66074.manifest.json" />
+    <None Include="dist\4ce7090d-14b8-4865-981c-461281a0c359.manifest.json" />
+    <None Include="dist\5df81796-113b-4d69-a5be-08b0353d0b36.manifest.json" />
+    <None Include="dist\6ddef0d7-ea32-412b-b248-5f7a6cb0d46e.manifest.json" />
+    <None Include="dist\6f7d0816-be94-4424-801f-3faa081d82ca.manifest.json" />
+    <None Include="dist\774f9264-7710-443f-b813-a264d7e377c6.manifest.json" />
+    <None Include="dist\7a2cfe1f-dd94-4320-b656-8597f01df4ab.manifest.json" />
+    <None Include="dist\836bee66-1fb0-44ff-80ae-2c0a44bb16f4.manifest.json" />
+    <None Include="dist\935af74c-e181-4471-806c-35a6bbdfde3f.manifest.json" />
+    <None Include="dist\a1aa0bd4-40d4-465b-ab7e-b273150ee7df.manifest.json" />
+    <None Include="dist\a2219b70-cccb-41b2-9443-61719f1c9f90.manifest.json" />
+    <None Include="dist\a26d3bce-7543-4a5f-bc0d-1679ff883f4c.manifest.json" />
+    <None Include="dist\anniversaries-web-part.js.map" />
+    <None Include="dist\announcement-marquee-web-part.js.map" />
+    <None Include="dist\announcement-web-part.js.map" />
+    <None Include="dist\b6e25822-54f9-4d1f-918f-b2e557cdccc8.manifest.json" />
+    <None Include="dist\b9d4ad77-2ec4-4485-853d-223e15b6e51d.manifest.json" />
+    <None Include="dist\banner-web-part.js.map" />
+    <None Include="dist\birth-day-webpart-web-part.js.map" />
+    <None Include="dist\birthdays-web-part.js.map" />
+    <None Include="dist\c405ff54-ff6a-41c2-9fe6-47dcfbed68f1.manifest.json" />
+    <None Include="dist\c7024de1-f088-45ec-9652-9dc42ef9a890.manifest.json" />
+    <None Include="dist\cf50afd8-b056-4055-937b-da9a79f4771e.manifest.json" />
+    <None Include="dist\d0ceb223-55e2-4d7a-9473-8eb61eee79ac.manifest.json" />
+    <None Include="dist\d7dc232f-a05b-400b-b208-63b7a4534621.manifest.json" />
+    <None Include="dist\dca9bcd3-015e-47c9-bbea-7f6001f4e3e7.manifest.json" />
+    <None Include="dist\df573137-f91b-4559-8085-8a2ad44bcc84.manifest.json" />
+    <None Include="dist\employee-profile-web-part.js.map" />
+    <None Include="dist\events-web-part.js.map" />
+    <None Include="dist\f35ec9e3-dcc0-4f1b-8c53-9ead735ecc58.manifest.json" />
+    <None Include="dist\ff3d4614-e5c4-4bf3-839e-7ba6ed2c3246.manifest.json" />
+    <None Include="dist\global-partner-speak-web-part.js.map" />
+    <None Include="dist\holiday-calendar-detail-web-part.js.map" />
+    <None Include="dist\holiday-calendar-web-part.js.map" />
+    <None Include="dist\insights-web-part.js.map" />
+    <None Include="dist\job-openings-web-part.js.map" />
+    <None Include="dist\key-documents-web-part.js.map" />
+    <None Include="dist\linkedin-posts-web-part.js.map" />
+    <None Include="dist\my-tasks-web-part.js.map" />
+    <None Include="dist\new-joinees-web-part.js.map" />
+    <None Include="dist\newsletters-web-part.js.map" />
+    <None Include="dist\open-requests-web-part.js.map" />
+    <None Include="dist\partner-speak-details-web-part.js.map" />
+    <None Include="dist\partners-speak-web-part.js.map" />
+    <None Include="dist\people-directory-web-part.js.map" />
+    <None Include="dist\poll-web-part.js.map" />
+    <None Include="dist\prompted-links-web-part.js.map" />
+    <None Include="dist\quick-links-web-part.js.map" />
+    <None Include="dist\slick_b7c9e1e479de3b53f1e4e30ebac2403a.woff" />
+    <None Include="dist\slick_ced611daf7709cc778da928fec876475.eot" />
+    <None Include="dist\slick_d41f55a78e6f49a5512878df1737e58a.ttf" />
+    <None Include="dist\sports-score-web-part.js.map" />
+    <None Include="dist\spotlight-web-part.js.map" />
+    <None Include="dist\star-performers-web-part.js.map" />
+    <None Include="dist\surveys-web-part.js.map" />
+    <None Include="dist\tiles-web-part.js.map" />
+    <None Include="dist\upload-job-resume-web-part.js.map" />
+    <None Include="src\webparts\announcement\AnnouncementWebPart.manifest.json" />
+    <None Include="src\webparts\announcement\components\Announcement.module.scss" />
+    <None Include="src\webparts\birthdays\BirthdaysWebPart.manifest.json" />
+    <None Include="src\webparts\birthdays\components\Birthdays.module.scss" />
+    <None Include="src\webparts\employeeStories\components\EmployeeStories.module.scss" />
+    <None Include="src\webparts\employeeStories\EmployeeStoriesWebPart.manifest.json" />
+    <None Include="src\webparts\events\components\Events.module.scss" />
+    <None Include="src\webparts\events\EventsWebPart.manifest.json" />
+    <None Include="src\webparts\holidayCalendar\components\calendar.scss" />
+    <None Include="src\webparts\holidayCalendar\components\HolidayCalendar.module.scss" />
+    <None Include="src\webparts\holidayCalendar\HolidayCalendarWebPart.manifest.json" />
+    <None Include="src\webparts\imageGallery\components\ImageGallery.module.scss" />
+    <None Include="src\webparts\imageGallery\ImageGalleryWebPart.manifest.json" />
+    <None Include="src\webparts\insights\components\Insights.module.scss" />
+    <None Include="src\webparts\insights\InsightsWebPart.manifest.json" />
+    <None Include="src\webparts\jobOpenings\components\JobOpenings.module.scss" />
+    <None Include="src\webparts\jobOpenings\JobOpeningsWebPart.manifest.json" />
+    <None Include="src\webparts\mediaGallery\MediaGalleryWebPart.manifest.json" />
+    <None Include="src\webparts\mediaGallery\MediaGalleryWebPart.module.scss" />
+    <None Include="src\webparts\myTasks\components\MyTasks.module.scss" />
+    <None Include="src\webparts\myTasks\MyTasksWebPart.manifest.json" />
+    <None Include="src\webparts\peopleDirectory\components\IndexNavigation\IndexNavigation.module.scss" />
+    <None Include="src\webparts\peopleDirectory\components\PeopleCallout\PeopleCallout.module.scss" />
+    <None Include="src\webparts\peopleDirectory\components\PeopleDirectory\PeopleDirectory.module.scss" />
+    <None Include="src\webparts\peopleDirectory\components\PeopleList\PeopleList.module.scss" />
+    <None Include="src\webparts\peopleDirectory\components\Search\Search.module.scss" />
+    <None Include="src\webparts\peopleDirectory\PeopleDirectoryWebPart.manifest.json" />
+    <None Include="src\webparts\poll\components\Poll.module.scss" />
+    <None Include="src\webparts\poll\PollWebPart.manifest.json" />
+    <None Include="src\webparts\sociaMedia\SociaMediaWebPart.manifest.json" />
+    <None Include="src\webparts\sociaMedia\SociaMediaWebPart.module.scss" />
+    <None Include="src\webparts\spotlight\components\Spotlight.module.scss" />
+    <None Include="src\webparts\spotlight\SpotlightWebPart.manifest.json" />
+    <None Include="src\webparts\tiles\components\Tiles.module.scss" />
+    <None Include="src\webparts\tiles\TilesWebPart.manifest.json" />
+    <None Include="src\webparts\tweetsFeed\TweetsFeedWebPart.manifest.json" />
+    <None Include="src\webparts\tweetsFeed\TweetsFeedWebPart.module.scss" />
+    <None Include="src\webparts\uploadJobResume\components\UploadJobResume.module.scss" />
+    <None Include="src\webparts\uploadJobResume\UploadJobResumeWebPart.manifest.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\index.ts" />
+    <TypeScriptCompile Include="src\webparts\announcement\AnnouncementWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\announcement\components\Announcement.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\announcement\components\Announcement.tsx" />
+    <TypeScriptCompile Include="src\webparts\announcement\components\AnnouncementId.tsx" />
+    <TypeScriptCompile Include="src\webparts\announcement\components\IAnnouncementProps.ts" />
+    <TypeScriptCompile Include="src\webparts\announcement\IAnnouncementWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\announcement\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\birthdays\BirthdaysWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\birthdays\components\Anniversary.tsx" />
+    <TypeScriptCompile Include="src\webparts\birthdays\components\Birthday.tsx" />
+    <TypeScriptCompile Include="src\webparts\birthdays\components\Birthdays.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\birthdays\components\Birthdays.tsx" />
+    <TypeScriptCompile Include="src\webparts\birthdays\components\IBirthdaysProps.ts" />
+    <TypeScriptCompile Include="src\webparts\birthdays\components\IBirthdayState.ts" />
+    <TypeScriptCompile Include="src\webparts\birthdays\components\Rewards.tsx" />
+    <TypeScriptCompile Include="src\webparts\birthdays\IBirthdaysWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\birthdays\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\common\common.ts" />
+    <TypeScriptCompile Include="src\webparts\common\Loading.tsx" />
+    <TypeScriptCompile Include="src\webparts\employeeStories\components\EmployeeStories.tsx" />
+    <TypeScriptCompile Include="src\webparts\employeeStories\components\IEmployeeStoriesProps.ts" />
+    <TypeScriptCompile Include="src\webparts\employeeStories\EmployeeStoriesWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\employeeStories\IEmployeeStoriesWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\employeeStories\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\events\components\Events.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\events\components\Events.tsx" />
+    <TypeScriptCompile Include="src\webparts\events\components\IEventsProps.ts" />
+    <TypeScriptCompile Include="src\webparts\events\components\IEventsState.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\webparts\events\EventsWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\events\IEventsWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\events\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\HolidayCalendar.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\HolidayCalendar.tsx" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\HolidayCalendarDetail.tsx" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\HolidayLocation.tsx" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\IData.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\IHolidayCalendarProps.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\IHolidayCalendarState.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\IHolidayLocation.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\components\spservices.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\HolidayCalendarWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\IHolidayCalendarWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\holidayCalendar\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\imageGallery\components\IImageGalleryProps.ts" />
+    <TypeScriptCompile Include="src\webparts\imageGallery\components\ImageGallery.tsx" />
+    <TypeScriptCompile Include="src\webparts\imageGallery\IImageGalleryWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\imageGallery\ImageGalleryWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\imageGallery\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\insights\components\IInsightsProps.ts" />
+    <TypeScriptCompile Include="src\webparts\insights\components\IInsightsState.ts" />
+    <TypeScriptCompile Include="src\webparts\insights\components\Insights.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\insights\components\Insights.tsx" />
+    <TypeScriptCompile Include="src\webparts\insights\components\InsightsID.tsx" />
+    <TypeScriptCompile Include="src\webparts\insights\IInsightsWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\insights\InsightsWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\insights\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\components\IJobOpeningsProps.ts" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\components\IJobOpeningsState.tsx" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\components\JobOpening.tsx" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\components\JobOpenings.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\components\JobOpenings.tsx" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\components\NewJoinee.tsx" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\IJobOpeningsWebpartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\JobOpeningsWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\jobOpenings\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\mediaGallery\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\mediaGallery\MediaGalleryWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\myTasks\components\CloseTask.tsx" />
+    <TypeScriptCompile Include="src\webparts\myTasks\components\ITaskItem.ts" />
+    <TypeScriptCompile Include="src\webparts\myTasks\components\IMyTasksProps.ts" />
+    <TypeScriptCompile Include="src\webparts\myTasks\components\IMyTasksState.ts" />
+    <TypeScriptCompile Include="src\webparts\myTasks\components\OpenTask.tsx" />
+    <TypeScriptCompile Include="src\webparts\myTasks\components\TaskItem.tsx" />
+    <TypeScriptCompile Include="src\webparts\myTasks\components\MyTasks.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\myTasks\components\MyTasks.tsx" />
+    <TypeScriptCompile Include="src\webparts\myTasks\IMyTasksWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\myTasks\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\myTasks\MyTasksWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\IndexNavigation\IIndexNavigationProps.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\IndexNavigation\index.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\IndexNavigation\IndexNavigation.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\IndexNavigation\IndexNavigation.tsx" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleCallout\index.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleCallout\IPeopleCalloutProps.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleCallout\IPeopleCalloutState.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleCallout\PeopleCallout.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleCallout\PeopleCallout.tsx" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleDirectory\index.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleDirectory\IPeopleDirectoryProps.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleDirectory\IPeopleDirectoryState.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleDirectory\IPeopleSearchResults.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleDirectory\IPerson.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleDirectory\PeopleDirectory.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleDirectory\PeopleDirectory.tsx" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleList\index.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleList\IPeopleListProps.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleList\IPeopleListState.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleList\PeopleList.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\PeopleList\PeopleList.tsx" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\Search\index.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\Search\ISearchProps.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\Search\Search.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\components\Search\Search.tsx" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\peopleDirectory\PeopleDirectoryWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\poll\components\IPollProps.ts" />
+    <TypeScriptCompile Include="src\webparts\poll\components\Poll.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\poll\components\Poll.tsx" />
+    <TypeScriptCompile Include="src\webparts\poll\ISimplePollWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\poll\ISPList.ts" />
+    <TypeScriptCompile Include="src\webparts\poll\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\poll\MockHttpClient.ts" />
+    <TypeScriptCompile Include="src\webparts\poll\PollWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\poll\SPSurveyService.ts" />
+    <TypeScriptCompile Include="src\webparts\sociaMedia\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\sociaMedia\SociaMediaWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\spotlight\components\ISpotlightProps.ts" />
+    <TypeScriptCompile Include="src\webparts\spotlight\components\ISpotlightState.ts" />
+    <TypeScriptCompile Include="src\webparts\spotlight\components\Spotlight.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\spotlight\components\Spotlight.tsx" />
+    <TypeScriptCompile Include="src\webparts\spotlight\components\SpotlightID.tsx" />
+    <TypeScriptCompile Include="src\webparts\spotlight\ISpotlightWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\spotlight\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\spotlight\SpotlightWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\tiles\components\ITilesProps.ts" />
+    <TypeScriptCompile Include="src\webparts\tiles\components\ITilesState.ts" />
+    <TypeScriptCompile Include="src\webparts\tiles\components\Tiles.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\tiles\components\Tiles.tsx" />
+    <TypeScriptCompile Include="src\webparts\tiles\components\TilesItem.tsx" />
+    <TypeScriptCompile Include="src\webparts\tiles\ITilesWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\tiles\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\tiles\TilesWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\tweetsFeed\ITweetsFeedWebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\tweetsFeed\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\tweetsFeed\TweetsFeedWebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\uploadJobResume\components\IUploadJobResumeProps.ts" />
+    <TypeScriptCompile Include="src\webparts\uploadJobResume\components\IUploadJobResumeState.ts" />
+    <TypeScriptCompile Include="src\webparts\uploadJobResume\components\UploadJobResume.module.scss.ts" />
+    <TypeScriptCompile Include="src\webparts\uploadJobResume\components\UploadJobResume.tsx" />
+    <TypeScriptCompile Include="src\webparts\uploadJobResume\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\uploadJobResume\UploadJobResumeWebPart.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dist\02_4e817c0e354cc1d53f2696ed8745ef76.jpg" />
+    <Content Include="dist\ajax-loader_c5cd7f5300576ab4c88202b42f6ded62.gif" />
+    <Content Include="dist\anniversaries-web-part.js" />
+    <Content Include="dist\announcement-marquee-web-part.js" />
+    <Content Include="dist\announcement-web-part.js" />
+    <Content Include="dist\arrow_2f4b573410b016776e11caeb2f81d381.png" />
+    <Content Include="dist\banner-web-part.js" />
+    <Content Include="dist\birth-day-webpart-web-part.js" />
+    <Content Include="dist\birthdays-web-part.js" />
+    <Content Include="dist\celebration_604835345465cc0fb26054367d3865b1.png" />
+    <Content Include="dist\comment_bdbcc247964865f6a9289451ef440433.png" />
+    <Content Include="dist\cricket-icon_f008a3e3b9e6b0187857985b6c44782b.png" />
+    <Content Include="dist\employee-profile-web-part.js" />
+    <Content Include="dist\events-web-part.js" />
+    <Content Include="dist\excel_333864d7e1898b7279a9166bfe72ff18.png" />
+    <Content Include="dist\excel_4a1bc6a69f0e0e36d25f956d5b1b9063.png" />
+    <Content Include="dist\global-partner-speak-web-part.js" />
+    <Content Include="dist\holiday-calendar-detail-web-part.js" />
+    <Content Include="dist\holiday-calendar-web-part.js" />
+    <Content Include="dist\insights-web-part.js" />
+    <Content Include="dist\job-openings-web-part.js" />
+    <Content Include="dist\key-documents-web-part.js" />
+    <Content Include="dist\like-fill_c22ec9b40ea71e101141ab4b6fe59758.png" />
+    <Content Include="dist\like_215ab2253310ef7172e9cdda20c3e1da.png" />
+    <Content Include="dist\linkedin-posts-web-part.js" />
+    <Content Include="dist\logo_336da2fccc05b3b4f3b8aeb969af16e4.png" />
+    <Content Include="dist\my-tasks-web-part.js" />
+    <Content Include="dist\new-joinees-web-part.js" />
+    <Content Include="dist\newsletters-web-part.js" />
+    <Content Include="dist\open-requests-web-part.js" />
+    <Content Include="dist\partner-speak-details-web-part.js" />
+    <Content Include="dist\partners-speak-web-part.js" />
+    <Content Include="dist\pdf_a2c86b498e541412eb4f2851d0c78237.png" />
+    <Content Include="dist\pdf_ac0d23018f6889768581bf2059de5e9e.png" />
+    <Content Include="dist\people-directory-web-part.js" />
+    <Content Include="dist\poll-web-part.js" />
+    <Content Include="dist\prompted-links-web-part.js" />
+    <Content Include="dist\quick-links-web-part.js" />
+    <Content Include="dist\r-arrow-hover_c161d62085ff4bcadd815c0221afd39d.png" />
+    <Content Include="dist\r-arrow_563735b14284a2d09649cd07048103f1.png" />
+    <Content Include="dist\resumeupload_98b4ca8779670f2db8c49cac166ef966.png" />
+    <Content Include="dist\slick_f97e3bbf73254b0112091d0192f17aec.svg" />
+    <Content Include="dist\sports-score-web-part.js" />
+    <Content Include="dist\spotlight-web-part.js" />
+    <Content Include="dist\star-performers-web-part.js" />
+    <Content Include="dist\surveys-web-part.js" />
+    <Content Include="dist\tiles-web-part.js" />
+    <Content Include="dist\upload-job-resume-web-part.js" />
+    <Content Include="dist\word_32c521b078294b0755179efebcbf0234.png" />
+    <Content Include="dist\word_7fa4f8c6c8bb0d02c4c7f1d4b324447d.png" />
+    <Content Include="src\javascripts\chartjs\Chart.min.js" />
+    <Content Include="src\webparts\announcement\assets\r-arrow-hover.png" />
+    <Content Include="src\webparts\announcement\assets\r-arrow.png" />
+    <Content Include="src\webparts\announcement\loc\en-us.js" />
+    <Content Include="src\webparts\birthdays\assets\celebration.png" />
+    <Content Include="src\webparts\birthdays\assets\comment.png" />
+    <Content Include="src\webparts\birthdays\assets\like-fill.png" />
+    <Content Include="src\webparts\birthdays\assets\like.png" />
+    <Content Include="src\webparts\birthdays\loc\en-us.js" />
+    <Content Include="src\webparts\employeeStories\loc\en-us.js" />
+    <Content Include="src\webparts\events\loc\en-us.js" />
+    <Content Include="src\webparts\holidayCalendar\loc\en-us.js" />
+    <Content Include="src\webparts\imageGallery\loc\en-us.js" />
+    <Content Include="src\webparts\insights\assets\r-arrow-hover.png" />
+    <Content Include="src\webparts\insights\assets\r-arrow.png" />
+    <Content Include="src\webparts\insights\loc\en-us.js" />
+    <Content Include="src\webparts\jobOpenings\assets\r-arrow-hover.png" />
+    <Content Include="src\webparts\jobOpenings\assets\r-arrow.png" />
+    <Content Include="src\webparts\jobOpenings\assets\resumeupload.png" />
+    <Content Include="src\webparts\jobOpenings\loc\en-us.js" />
+    <Content Include="src\webparts\mediaGallery\loc\en-us.js" />
+    <Content Include="src\webparts\myTasks\assets\r-arrow-hover.png" />
+    <Content Include="src\webparts\myTasks\assets\r-arrow.png" />
+    <Content Include="src\webparts\myTasks\loc\en-us.js" />
+    <Content Include="src\webparts\peopleDirectory\loc\en-us.js" />
+    <Content Include="src\webparts\poll\loc\en-us.js" />
+    <Content Include="src\webparts\sociaMedia\loc\en-us.js" />
+    <Content Include="src\webparts\spotlight\loc\en-us.js" />
+    <Content Include="src\webparts\tiles\loc\en-us.js" />
+    <Content Include="src\webparts\tweetsFeed\loc\en-us.js" />
+    <Content Include="src\webparts\uploadJobResume\loc\en-us.js" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

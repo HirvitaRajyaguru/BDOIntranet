@@ -1,0 +1,1 @@
+{"version":3,"file":"Banner.d.ts","sourceRoot":"","sources":["../../../../src/webparts/banner/components/Banner.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAE/B,OAAO,EAAE,YAAY,EAAE,MAAM,gBAAgB,CAAC;AAG9C,MAAM,CAAC,OAAO,aAAc,SAAQ,KAAK,CAAC,SAAS,CAAC,YAAY,EAAE,EAAE,CAAC;IAC5D,MAAM,IAAI,KAAK,CAAC,YAAY,CAAC,YAAY,CAAC;CAkBlD"}

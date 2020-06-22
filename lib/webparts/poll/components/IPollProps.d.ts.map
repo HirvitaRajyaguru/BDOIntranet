@@ -1,0 +1,1 @@
+{"version":3,"file":"IPollProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/poll/components/IPollProps.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,UAAU;IACzB,UAAU,EAAE,MAAM,CAAC;IACnB,IAAI,EAAE,MAAM,CAAC;IACb,IAAI,EAAE,MAAM,CAAC;IACb,KAAK,EAAE,MAAM,CAAC;IACd,OAAO,CAAC,EAAE,GAAG,CAAC;IACd,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,sBAAsB,CAAC,EAAE,OAAO,CAAC;CAClC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"IMyTasksProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/myTasks/components/IMyTasksProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AACnD,OAAO,EAAE,oBAAoB,EAAE,MAAM,yBAAyB,CAAC;AAC/D,MAAM,WAAW,aAAc,SAAQ,oBAAoB;IACzD,WAAW,EAAE,aAAa,CAAC;CAC5B"}

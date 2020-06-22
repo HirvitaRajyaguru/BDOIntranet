@@ -1,0 +1,47 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.events {
+  .container {
+    background: #FFFFFF;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 10px 0;
+    /*border-top: 4px solid #944A60;*/
+    // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  a {
+    color: #333 !important;
+  }
+
+  a:hover {
+    color: #333 !important;
+  }
+
+  h2 {
+    font-family: proxima-nova,arial !important;
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 0 15px !important;
+    padding: 0 0 15px !important;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 15px;
+  }
+
+  .linecolor {
+    border-bottom: 1px solid #e9e9e9;
+    margin: 8px 0;
+    display: block;
+  }
+
+  .cardfont {
+    border: 2px solid #838383;
+    padding: 14px 0;
+    width: 55px;
+  }
+
+  label {
+    padding: 0 !important;
+  }
+}

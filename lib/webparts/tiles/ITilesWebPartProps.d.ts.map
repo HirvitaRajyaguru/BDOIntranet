@@ -1,0 +1,1 @@
+{"version":3,"file":"ITilesWebPartProps.d.ts","sourceRoot":"","sources":["../../../src/webparts/tiles/ITilesWebPartProps.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,kBAAkB;IACjC,MAAM,EAAE,MAAM,CAAC;IACf,aAAa,EAAE,MAAM,CAAC;CACvB;AAED,MAAM,WAAW,OAAO;IACtB,KAAK,EAAE,MAAM,CAAC;IACd,EAAE,EAAE,MAAM,CAAC;CACZ;AAED,MAAM,WAAW,QAAQ;IACvB,KAAK,EAAE,OAAO,EAAE,CAAC;CAClB"}

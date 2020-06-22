@@ -1,0 +1,56 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.tiles {
+  /*$box-size: 105px;*/
+  .container {
+    max-width: 100%;
+    margin: 0px auto;
+    //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+   // background:#e7e7e7 !important;
+
+  }
+
+  .pLinkItemWrapper {
+    /*float: left;*/
+    display: inline-block;
+    height: 105px;
+    width: 109px;
+    position: relative;
+    border: #FFF 2px solid;
+    margin: 0px auto;
+    background-color: #505050;
+   // border-bottom:none;
+   // border-top:none;
+  }
+
+  .pLinkItemImage {
+    height: 105px;
+    width: 128px;
+    background-color: #505050;
+    //margin: 30px !important;
+  }
+
+  .pLinkItemDesc {
+    font-size: 8pt;
+    color: #ccc;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .tiles {
+    .container {
+      text-align: center;
+    }
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .tiles {
+      .pLinkItemWrapper {
+        width: 48.5%;
+      }
+
+      .pLinkItemImage {
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+  }

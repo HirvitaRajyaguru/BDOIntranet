@@ -1,0 +1,17 @@
+/* tslint:disable */
+require("./PromptedLinks.module.css");
+const styles = {
+  promptedLinks: 'promptedLinks_cc3d0930',
+  container: 'container_cc3d0930',
+  row: 'row_cc3d0930',
+  column: 'column_cc3d0930',
+  'ms-Grid': 'ms-Grid_cc3d0930',
+  title: 'title_cc3d0930',
+  subTitle: 'subTitle_cc3d0930',
+  description: 'description_cc3d0930',
+  button: 'button_cc3d0930',
+  label: 'label_cc3d0930'
+};
+
+export default styles;
+/* tslint:enable */

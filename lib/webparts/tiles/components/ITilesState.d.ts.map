@@ -1,0 +1,1 @@
+{"version":3,"file":"ITilesState.d.ts","sourceRoot":"","sources":["../../../../src/webparts/tiles/components/ITilesState.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,WAAW;IAC1B,QAAQ,EAAE,cAAc,EAAE,CAAC;CAC5B;AAGD,MAAM,WAAW,cAAc;IAC7B,KAAK,EAAE,MAAM,CAAC;IACd,QAAQ,EAAE,MAAM,CAAC;IACjB,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAE,MAAM,CAAC;CACjB"}

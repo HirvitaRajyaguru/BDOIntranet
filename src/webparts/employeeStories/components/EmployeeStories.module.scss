@@ -1,0 +1,66 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.employeeStories {
+  .container {
+    max-width: 100%;
+    margin: 0px auto;
+    background: #e4e4e4;
+    padding: 15px;
+  }
+
+  h2 {
+    font-family: proxima-nova,arial !important;
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 auto 15px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 15px;
+  }
+
+  .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .description {
+    font-family: proxima-nova,arial !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    // -webkit-box-orient: vertical;
+    // color: rgb(161,159,157);
+    font-weight: 100 !important;
+    font-size: 12px;
+    // padding-right: 25px;
+    text-align: justify;
+
+    div {
+      font-family: proxima-nova,arial !important;
+      font-size: 12px !important;
+      color: #838383 !important;
+    }
+  }
+
+  .viewAll {
+    float: right;
+    bottom: 2px;
+    color: #ffffff;
+    background-color: #ed1a3b !important;
+    padding: 7px;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+    font-family: proxima-nova,arial !important;
+  }
+
+  p {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 13px !important;
+    color: #838383 !important;
+    line-height: 18px !important;
+    background: transparent !important;
+  }
+}

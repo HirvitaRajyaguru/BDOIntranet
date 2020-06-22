@@ -1,0 +1,324 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/banner/BannerWebPart.js",
+          "manifest": "./src/webparts/banner/BannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "events-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/events/EventsWebPart.js",
+          "manifest": "./src/webparts/events/EventsWebPart.manifest.json"
+        }
+      ]
+    },
+    "poll-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/poll/PollWebPart.js",
+          "manifest": "./src/webparts/poll/PollWebPart.manifest.json"
+        }
+      ]
+    },
+    "quick-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickLinks/QuickLinksWebPart.js",
+          "manifest": "./src/webparts/quickLinks/QuickLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "insights-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/insights/InsightsWebPart.js",
+          "manifest": "./src/webparts/insights/InsightsWebPart.manifest.json"
+        }
+      ]
+    },
+    "newsletters-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newsletters/NewslettersWebPart.js",
+          "manifest": "./src/webparts/newsletters/NewslettersWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-tasks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myTasks/MyTasksWebPart.js",
+          "manifest": "./src/webparts/myTasks/MyTasksWebPart.manifest.json"
+        }
+      ]
+    },
+    "job-openings-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jobOpenings/JobOpeningsWebPart.js",
+          "manifest": "./src/webparts/jobOpenings/JobOpeningsWebPart.manifest.json"
+        }
+      ]
+    },
+    "partners-speak-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/partnersSpeak/PartnersSpeakWebPart.js",
+          "manifest": "./src/webparts/partnersSpeak/PartnersSpeakWebPart.manifest.json"
+        }
+      ]
+    },
+    "spotlight-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spotlight/SpotlightWebPart.js",
+          "manifest": "./src/webparts/spotlight/SpotlightWebPart.manifest.json"
+        }
+      ]
+    },
+    "key-documents-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/keyDocuments/KeyDocumentsWebPart.js",
+          "manifest": "./src/webparts/keyDocuments/KeyDocumentsWebPart.manifest.json"
+        }
+      ]
+    },
+    "birthday-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/birthdays/BirthdaysWebPart.js",
+          "manifest": "./src/webparts/birthdays/BirthdaysWebPart.manifest.json"
+        }
+      ]
+    },
+    "anniversaries-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/anniversaries/AnniversariesWebPart.js",
+          "manifest": "./src/webparts/anniversaries/AnniversariesWebPart.manifest.json"
+        }
+      ]
+    },
+    "new-joinees-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newJoinees/NewJoineesWebPart.js",
+          "manifest": "./src/webparts/newJoinees/NewJoineesWebPart.manifest.json"
+        }
+      ]
+    },
+    "star-performers-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/starPerformers/StarPerformersWebPart.js",
+          "manifest": "./src/webparts/starPerformers/StarPerformersWebPart.manifest.json"
+        }
+      ]
+    },
+    "holiday-calendar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/holidayCalendar/HolidayCalendarWebPart.js",
+          "manifest": "./src/webparts/holidayCalendar/HolidayCalendarWebPart.manifest.json"
+        }
+      ]
+    },
+    "linkedin-posts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/linkedinPosts/LinkedinPostsWebPart.js",
+          "manifest": "./src/webparts/linkedinPosts/LinkedinPostsWebPart.manifest.json"
+        }
+      ]
+    },
+    "tiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tiles/TilesWebPart.js",
+          "manifest": "./src/webparts/tiles/TilesWebPart.manifest.json"
+        }
+      ]
+    },
+    "surveys-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/surveys/SurveysWebPart.js",
+          "manifest": "./src/webparts/surveys/SurveysWebPart.manifest.json"
+        }
+      ]
+    },
+    "people-directory-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/peopleDirectory/PeopleDirectoryWebPart.js",
+          "manifest": "./src/webparts/peopleDirectory/PeopleDirectoryWebPart.manifest.json"
+        }
+      ]
+    },
+    "prompted-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/promptedLinks/PromptedLinksWebPart.js",
+          "manifest": "./src/webparts/promptedLinks/PromptedLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "announcement-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/announcement/AnnouncementWebPart.js",
+          "manifest": "./src/webparts/announcement/AnnouncementWebPart.manifest.json"
+        }
+      ]
+    },
+    "partner-speak-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/partnerSpeakDetails/PartnerSpeakDetailsWebPart.js",
+          "manifest": "./src/webparts/partnerSpeakDetails/PartnerSpeakDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "upload-job-resume-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadJobResume/UploadJobResumeWebPart.js",
+          "manifest": "./src/webparts/uploadJobResume/UploadJobResumeWebPart.manifest.json"
+        }
+      ]
+    },
+    "employee-profile-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeProfile/EmployeeProfileWebPart.js",
+          "manifest": "./src/webparts/employeeProfile/EmployeeProfileWebPart.manifest.json"
+        }
+      ]
+    },
+    "announcement-marquee-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/announcementMarquee/AnnouncementMarqueeWebPart.js",
+          "manifest": "./src/webparts/announcementMarquee/AnnouncementMarqueeWebPart.manifest.json"
+        }
+      ]
+    },
+    "holiday-calendar-detail-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/holidayCalendarDetail/HolidayCalendarDetailWebPart.js",
+          "manifest": "./src/webparts/holidayCalendarDetail/HolidayCalendarDetailWebPart.manifest.json"
+        }
+      ]
+    },
+    "global-partner-speak-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/globalPartnerSpeak/GlobalPartnerSpeakWebPart.js",
+          "manifest": "./src/webparts/globalPartnerSpeak/GlobalPartnerSpeakWebPart.manifest.json"
+        }
+      ]
+    },
+    "employee-stories-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeStories/EmployeeStoriesWebPart.js",
+          "manifest": "./src/webparts/employeeStories/EmployeeStoriesWebPart.manifest.json"
+        }
+      ]
+    },
+    "tweets-feed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tweetsFeed/TweetsFeedWebPart.js",
+          "manifest": "./src/webparts/tweetsFeed/TweetsFeedWebPart.manifest.json"
+        }
+      ]
+    },
+    "socia-media-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sociaMedia/SociaMediaWebPart.js",
+          "manifest": "./src/webparts/sociaMedia/SociaMediaWebPart.manifest.json"
+        }
+      ]
+    },
+    "media-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mediaGallery/MediaGalleryWebPart.js",
+          "manifest": "./src/webparts/mediaGallery/MediaGalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    //"image-gallry-web-part": {
+    //  "components": [
+    //    {
+    //      "entrypoint": "./lib/webparts/imageGallry/ImageGallryWebPart.js",
+    //      "manifest": "./src/webparts/imageGallry/ImageGallryWebPart.manifest.json"
+    //    }
+    //  ]
+    //},
+    "image-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/imageGallery/ImageGalleryWebPart.js",
+          "manifest": "./src/webparts/imageGallery/ImageGalleryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "chartjs": {
+      "path": "./src/javascripts/chartjs/Chart.min.js",
+      "globalName": "Chart"
+    }
+  },
+  "localizedResources": {
+    "BannerWebPartStrings": "lib/webparts/banner/loc/{locale}.js",
+    "EventsWebPartStrings": "lib/webparts/events/loc/{locale}.js",
+    "PollWebPartStrings": "lib/webparts/poll/loc/{locale}.js",
+    "QuickLinksWebPartStrings": "lib/webparts/quickLinks/loc/{locale}.js",
+    "InsightsWebPartStrings": "lib/webparts/insights/loc/{locale}.js",
+    "NewslettersWebPartStrings": "lib/webparts/newsletters/loc/{locale}.js",
+    "MyTasksWebPartStrings": "lib/webparts/myTasks/loc/{locale}.js",
+    "JobOpeningsWebPartStrings": "lib/webparts/jobOpenings/loc/{locale}.js",
+    "PartnersSpeakWebPartStrings": "lib/webparts/partnersSpeak/loc/{locale}.js",
+    "SpotlightWebPartStrings": "lib/webparts/spotlight/loc/{locale}.js",
+    "KeyDocumentsWebPartStrings": "lib/webparts/keyDocuments/loc/{locale}.js",
+    "BirthdaysWebPartStrings": "lib/webparts/birthdays/loc/{locale}.js",
+    "AnniversariesWebPartStrings": "lib/webparts/anniversaries/loc/{locale}.js",
+    "NewJoineesWebPartStrings": "lib/webparts/newJoinees/loc/{locale}.js",
+    "StarPerformersWebPartStrings": "lib/webparts/starPerformers/loc/{locale}.js",
+    "HolidayCalendarWebPartStrings": "lib/webparts/holidayCalendar/loc/{locale}.js",
+    "LinkedinPostsWebPartStrings": "lib/webparts/linkedinPosts/loc/{locale}.js",
+    "TilesWebPartStrings": "lib/webparts/tiles/loc/{locale}.js",
+    "SurveysWebPartStrings": "lib/webparts/surveys/loc/{locale}.js",
+    "PeopleDirectoryWebPartStrings": "lib/webparts/peopleDirectory/loc/{locale}.js",
+    "PromptedLinksWebPartStrings": "lib/webparts/promptedLinks/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "AnnouncementWebPartStrings": "lib/webparts/announcement/loc/{locale}.js",
+    "PartnerSpeakDetailsWebPartStrings": "lib/webparts/partnerSpeakDetails/loc/{locale}.js",
+    "UploadJobResumeWebPartStrings": "lib/webparts/uploadJobResume/loc/{locale}.js",
+    "EmployeeProfileWebPartStrings": "lib/webparts/employeeProfile/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "AnnouncementMarqueeWebPartStrings": "lib/webparts/announcementMarquee/loc/{locale}.js",
+    "HolidayCalendarDetailWebPartStrings": "lib/webparts/holidayCalendarDetail/loc/{locale}.js",
+    "EventDetailsWebPartStrings": "lib/webparts/eventDetails/loc/{locale}.js",
+    "KeyDocDetailsWebPartStrings": "lib/webparts/keyDocDetails/loc/{locale}.js",
+    "GlobalPartnerSpeakWebPartStrings": "lib/webparts/globalPartnerSpeak/loc/{locale}.js",
+    "EmployeeStoriesWebPartStrings": "lib/webparts/employeeStories/loc/{locale}.js",
+    "TweetsFeedWebPartStrings": "lib/webparts/tweetsFeed/loc/{locale}.js",
+    "SociaMediaWebPartStrings": "lib/webparts/sociaMedia/loc/{locale}.js",
+    "MediaGalleryWebPartStrings": "lib/webparts/mediaGallery/loc/{locale}.js",
+   // "ImageGallryWebPartStrings": "lib/webparts/imageGallry/loc/{locale}.js",
+    "ImageGalleryWebPartStrings": "lib/webparts/imageGallery/loc/{locale}.js"
+  }
+}

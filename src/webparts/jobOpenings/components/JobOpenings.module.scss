@@ -1,0 +1,165 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.jobOpenings {
+  .container {
+    max-width: 100%;
+    margin: 0px auto;
+    // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    //padding: 15px;
+    //  background-image: url(../assets/celebration.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .containertab {
+    max-width: 100%;
+    margin: 0px auto;
+    // padding: 15px;
+    padding: 10px 0 0 10px;
+    // background-image: url(../assets/celebration.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  /*button {
+   // background-color: $ms-color-neutralPrimary;
+  //  @include ms-fontColor-white;
+    font-size: 12px !important;
+    padding: 0 3.7% !important;
+    width: 50% !important;
+    background-color: #f8f8f8 !important;
+    *::before {
+      background: rgb(128, 128, 128);
+      border-bottom: none !important;
+    }
+  }*/
+  .alignright {
+    align-self: end;
+    align-content: end;
+    align-items: end;
+  }
+
+  .header {
+    font-family: 'proxima-nova';
+    background-color: #FFFFFF;
+    color: black;
+    margin: 10px 15px 0 15px !important;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 17px;
+    border-bottom: 1px solid #330066;
+    padding: 0 0 5px 0;
+  }
+
+  .resumeupload {
+    float: right;
+    width: 30px !important;
+  }
+
+  hr.new1 {
+    border-top: 1px solid #FFFFFF;
+  }
+
+  .title {
+    font-family: 'proxima-nova';
+    background-color: #FFFFFF;
+    color: black;
+    margin: 10px 15px 0 15px !important;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0 0 5px 0;
+  }
+
+  .datedisplay {
+    font-family: 'proxima-nova';
+    background-color: #FFFFFF;
+    color: black;
+    margin: 10px 15px 0 15px !important;
+    font-size: 13px;
+    padding: 0 0 5px 0;
+  }
+
+  .Titleheading {
+    font-family: 'proxima-nova';
+    color: #333333;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .icons {
+    margin-left: 15px;
+    text-align: center;
+  }
+
+  .description {
+    font-family: 'proxima-nova';
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 15px;
+    margin: 10px 15px 0 15px !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .viewAll {
+    //position: absolute;
+    //right: 15px;
+    float: right;
+    bottom: 2px;
+    color: #ffffff !important;
+    background-color: #ed1a3b !important;
+    padding: 7px;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+    font-family: proxima-nova,arial !important;
+  }
+
+  span.textarrow {
+    background: url(../assets/r-arrow.png) no-repeat;
+    background-position: 0;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 11px;
+    margin-left: 10px;
+  }
+
+  a:hover span.textarrow {
+    background: url(../assets/r-arrow-hover.png) no-repeat;
+    background-position: 0;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 11px;
+    margin-left: 10px;
+  }
+
+
+  .verticalscroll {
+    height: 193px;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+
+  #style-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+  }
+
+  #style-2::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+  }
+
+  #style-2::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+    background-color: #555;
+  }
+}

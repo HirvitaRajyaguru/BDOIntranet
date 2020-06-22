@@ -1,0 +1,96 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+@import "~video-react/styles/scss/video-react";
+
+.spotlight {
+  .container {
+    max-width: 100%;
+    margin: 0px auto;
+    background: #e4e4e4;
+    padding: 15px;
+    border-right: 1px solid #ffffff;
+
+    h2 {
+      font-family: proxima-nova,arial !important;
+      font-size: 17px;
+      font-weight: 700;
+      color: #333333;
+      margin: 0 auto 15px;
+      border-bottom: 1px solid #e4e4e4;
+      text-transform: uppercase;
+      padding-bottom: 15px;
+    }
+
+    .descriptionaStyle {
+      padding-top: 5px;
+      //To hide rest of the text that are more than the height of the row.
+      overflow: hidden;
+      font-size: 12px;
+      font-weight: 100 !important;
+      font-family: proxima-nova,arial !important;
+      color: #838383 !important;
+      margin: 5px 0;
+      width: 100% !important;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      background: #e4e4e4 !important;
+
+      span {
+        background: #e4e4e4 !important;
+        font-size: 12px !important;
+        color: #838383 !important;
+        font-family: proxima-nova,arial !important;
+      }
+
+      div {
+        background: #e4e4e4 !important;
+        font-size: 12px !important;
+        color: #838383 !important;
+        font-family: proxima-nova,arial !important;
+      }
+    }
+
+    .viewAll {
+      //position: absolute;
+      //right: 15px;
+      float: right;
+      bottom: 2px;
+      color: #ffffff;
+      background-color: #ed1a3b !important;
+      padding: 7px;
+      text-decoration: none;
+      width: 70px;
+      text-align: center;
+      font-family: proxima-nova,arial !important;
+    }
+
+    .padnone {
+      padding: 0 !important;
+    }
+
+    p {
+      margin-top: 0px;
+      padding-top: 0px;
+      font-size: 13px !important;
+      color: #838383 !important;
+      line-height: 18px !important;
+      background: transparent !important;
+    }
+  }
+
+  .fontweight {
+    font-weight: 400;
+  }
+
+  .imageStyle {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 175px;
+  }
+
+  .tableStyle {
+    display: table;
+    margin-left: 0;
+  }
+}

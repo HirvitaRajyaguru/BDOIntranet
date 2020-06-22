@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bdocp-client-side-solution",
+    "id": "84380f1c-dd56-4fb5-8784-3fe3e07d81d7",
+    "version": "1.0.0.29",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/BDOCP-Webparts.sppkg"
+  }
+}

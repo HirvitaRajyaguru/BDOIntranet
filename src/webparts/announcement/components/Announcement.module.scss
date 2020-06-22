@@ -1,0 +1,209 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.announcement {
+  .tableStyle {
+    display: table;
+    margin-left: 0;
+  }
+
+  .panelStyle {
+    background: #ffffff;
+   // margin: 0px auto;
+   // padding: 15px 20px;
+   // width: 100%;
+    //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    /*border-top: 4px solid #0b5861;*/
+  }
+
+  h2.tableCaptionStyle {
+    font-family: proxima-nova,arial !important;
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 auto 20px;
+    border-bottom: 1px solid #e9e9e9;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+
+  .divStyle {
+    background: #eee;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .imglogo {
+    width: 50%;
+  }
+
+  .headerCaptionStyle {
+    background: white;
+    display: table-row;
+    border: solid;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    padding-top: 3px;
+    color: white;
+    margin-left: 100px;
+    //display: block;
+  }
+
+  .headerStyle {
+    background: #4B6978;
+    display: table-row;
+    border: solid;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+  }
+
+  .rowCaptionStyle {
+    width: auto;
+    display: table-caption;
+    background: #4B6978;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .rowStyle {
+    display: table-row;
+    //  background: #eee;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+  }
+
+  .CellStyle {
+    display: table-cell;
+    border: solid;
+    border-color: #fff;
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    font-weight: 700;
+    background: #fff;
+    vertical-align: top;
+    // text-transform: uppercase;
+    font-size: 17px;
+    color: #333333;
+    padding-left: 15px;
+    font-family: proxima-nova,arial !important;
+    /*display: table-cell;
+    border: solid;
+    border-color: #fff;
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    font-weight: 700;
+    background: #fff;
+    vertical-align: top;
+    text-transform: uppercase;
+    padding-left: 15px;*/
+  }
+
+  .CellStyle img {
+    margin-left: 10px;
+  }
+
+  .dateStyle {
+    display: table-cell;
+    border: solid;
+    font-size: x-large;
+    border-color: #fff;
+    text-align: center;
+    width: 55px;
+    height: 60px;
+    padding: 15px 10px 0;
+    line-height: 22px;
+    background: #e7e7e7;
+    font-family: proxima-nova,arial !important;
+    font-weight: 700;
+    /*display: table-cell;
+    border: solid;
+    font-size: x-large;
+    border-color: #fff;
+    text-align: center;
+    width: 55px;
+    height: 60px;
+    padding: 15px 10px 0;
+    line-height: 22px;
+    background: #e7e7e7;*/
+  }
+
+  .descriptionaStyle {
+    border-color: #fff;
+    max-height: 45px;
+  //  padding-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 500 !important;
+    color: #333333;
+    font-family: proxima-nova,arial !important;
+    /*display: table-cell;
+    border-color: #fff;
+    width: 500px;
+    height: auto;
+    padding-top: 5px;
+    font-size: x-small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 45px;*/
+  }
+
+  .announceblk {
+    padding-bottom: 15px;
+    background: #FFF !important;
+  }
+
+  a {
+    color: #333 !important;
+    text-decoration: none !important;
+  }
+
+  a:hover {
+    color: #838383 !important;
+  }
+
+  span.textarrow {
+    background: url(../assets/r-arrow.png) no-repeat;
+    background-position: 0;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 11px;
+    margin-left: 10px;
+  }
+
+  a:hover span.textarrow {
+    background: url(../assets/r-arrow-hover.png) no-repeat;
+    background-position: 0;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 11px;
+    margin-left: 10px;
+  }
+
+  .viewAll {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+  }
+
+  .fontweight {
+    font-weight: 400;
+  }
+
+  .imageStyle {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 175px;
+  }
+}

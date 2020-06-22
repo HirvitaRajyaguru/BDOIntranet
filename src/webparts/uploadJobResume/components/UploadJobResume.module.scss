@@ -1,0 +1,180 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.uploadJobResume {
+  .container {
+    max-width: 100%;
+    margin: 0px auto;
+    border: 1px rgba(218, 215, 215, 0.699) solid;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    min-height: 330px;
+    font-family: 'proxima-nova';
+  }
+
+  .header {
+    font-family: 'proxima-nova';
+    background-color: #FFFFFF;
+    color: #333333;
+    margin: 15px 15px 0 15px !important;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 17px;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 0 0 15px 0;
+    text-transform: uppercase;
+  }
+
+  .sectionbody {
+    font-family: 'proxima-nova';
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    float: left;
+    //overflow-y: hidden;
+    width: 100%;
+    height: 205px;
+  }
+
+  .item {
+    font-family: 'proxima-nova';
+    color: #333333;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 4px;
+    padding-right: 0px;
+    clear: both;
+  }
+
+  .jobsection {
+    font-family: 'proxima-nova';
+    color: #333333;
+    // overflow-y: auto;
+    height: 174px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .jobitem {
+    font-family: 'proxima-nova';
+    color: #333333;
+    margin: 0;
+    padding: 7px 0;
+    float: left;
+    width: 100%;
+  }
+
+  .dateitem {
+    margin: 0;
+    padding: 5px;
+    //background: #fb8318;
+    //background: lightskyblue;
+    // background: mediumslateblue;
+  }
+
+  .primarytext {
+    font-family: 'proxima-nova';
+    color: #333333;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0;
+  }
+
+  .subject {
+    font-family: 'proxima-nova';
+    color: #333333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre-line;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .dot {
+    height: 60px;
+    width: 60px;
+    background-color: #dedede;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 5px 4px 0;
+    text-align: center;
+    margin-bottom: 15px;
+    word-break: break-all;
+    line-height: 55px;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+
+  .subject1 {
+    @include ms-font-m;
+    font-weight: 500;
+    font-family: 'proxima-nova';
+    color: #333333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    //white-space: nowrap;
+  }
+
+
+  .subject2 {
+    font-size: 12px;
+    font-family: 'proxima-nova';
+    color: #333333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    //white-space: nowrap;
+  }
+
+  .next {
+    font-size: 4em;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 2px;
+    float: right;
+  }
+
+  .viewAll {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 25px;
+  }
+
+  .jobopeninglist {
+    text-decoration: none;
+  }
+
+  .errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+
+  button {
+    outline: none;
+    border: 0;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: #ffff !important;
+    text-transform: uppercase;
+    background: #ed1a3b !important;
+  }
+
+  .chooseFile {
+    font-family: 'proxima-nova';
+  }
+
+  .alltextbox {
+    padding: 0px;
+  }
+}

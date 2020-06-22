@@ -1,0 +1,1 @@
+{"version":3,"file":"IAnnouncementProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/announcement/components/IAnnouncementProps.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,yBAAyB,EAAE,MAAM,8BAA8B,CAAC;AACzE,OAAO,EAAE,YAAY,EAAwB,MAAM,oBAAoB,CAAC;AAExE,MAAM,WAAW,kBAAmB,SAAQ,yBAAyB;IACnE,OAAO,EAAE,MAAM,CAAC;IAChB,YAAY,EAAE,YAAY,CAAC;CAC5B"}

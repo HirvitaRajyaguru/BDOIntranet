@@ -1,0 +1,1 @@
+{"version":3,"file":"PromptedLinks.d.ts","sourceRoot":"","sources":["../../../../src/webparts/promptedLinks/components/PromptedLinks.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAE/B,OAAO,EAAE,mBAAmB,EAAE,MAAM,uBAAuB,CAAC;AAG5D,MAAM,CAAC,OAAO,oBAAqB,SAAQ,KAAK,CAAC,SAAS,CAAC,mBAAmB,EAAE,EAAE,CAAC;IAC1E,MAAM,IAAI,KAAK,CAAC,YAAY,CAAC,mBAAmB,CAAC;CAkBzD"}

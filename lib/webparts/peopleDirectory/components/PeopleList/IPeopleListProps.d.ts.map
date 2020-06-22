@@ -1,0 +1,1 @@
+{"version":3,"file":"IPeopleListProps.d.ts","sourceRoot":"","sources":["../../../../../src/webparts/peopleDirectory/components/PeopleList/IPeopleListProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,MAAM,oBAAoB,CAAC;AAE7C;;GAEG;AACH,MAAM,WAAW,gBAAgB;IAC/B;;OAEG;IACH,MAAM,EAAE,OAAO,EAAE,CAAC;IAClB;;OAEG;IACH,aAAa,EAAE,MAAM,CAAC;IACtB;;OAEG;IACH,cAAc,EAAE,OAAO,CAAC;CACzB"}

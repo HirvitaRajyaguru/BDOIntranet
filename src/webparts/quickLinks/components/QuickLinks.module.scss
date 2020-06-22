@@ -1,0 +1,33 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.quickLinks {
+  $box-size: 65px;
+
+  .container {
+    max-width: 100%;
+    margin: 0px auto;
+    background: #FFFFFF;
+    border-top: 4px solid #428bca;
+    padding: 22px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .pLinkItemWrapper {
+    float: left;
+    display: block;
+    height: 80px;
+    width: 85px;
+    position: relative;
+    margin: 0px 10px 8px 0px;
+    text-align:center;
+  }
+
+  .pLinkItemImage {
+    height: 80px;
+    width: 60px;
+    margin:0 auto;
+    //margin: 30px !important;
+  }
+
+  
+}

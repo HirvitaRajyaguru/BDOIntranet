@@ -1,0 +1,1 @@
+{"version":3,"file":"IAnnouncementMarqueeProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/announcementMarquee/components/IAnnouncementMarqueeProps.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,gCAAgC,EAAE,MAAM,qCAAqC,CAAC;AACvF,OAAO,EAAE,YAAY,EAAwB,MAAM,oBAAoB,CAAC;AAExE,MAAM,WAAW,yBAA0B,SAAQ,gCAAgC;IACjF,OAAO,EAAE,MAAM,CAAC;IAChB,YAAY,EAAE,YAAY,CAAC;CAC5B"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"IHolidayCalendarProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/holidayCalendar/components/IHolidayCalendarProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AACnD,OAAO,EAAE,4BAA4B,EAAE,MAAM,iCAAiC,CAAC;AAC/E,MAAM,WAAW,qBAAsB,SAAQ,4BAA4B;IACzE,OAAO,EAAE,MAAM,CAAC;IAChB,WAAW,EAAE,aAAa,CAAC;CAC5B"}

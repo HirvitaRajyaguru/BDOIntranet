@@ -1,0 +1,124 @@
+//@import '~office-ui-fabric-react/dist/sass/References.scss';
+//@import "./node_modules/spfx-uifabric-themes/office.theme.vars";
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+.holidayCalendar {
+  .container {
+    width: 100%;
+    margin: 0px auto;
+    font-family: proxima-nova,arial !important;
+  }
+
+  .rbc-month-row {
+    overflow: inherit !important;
+  }
+  /* Added styles for days within the same month/week */
+  .dayPropGetter {
+    // background-color: $ms-primaryBackground;
+    border-radius: '0px';
+    opacity: 0.8;
+    // color: $ms-themeAccent;
+    border: '0px';
+    display: 'block';
+  }
+
+  .viewAll {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+  }
+
+  .titledetail {
+    font-family: proxima-nova,arial;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre-line;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 3px;
+    //  line-height: 30px;
+  }
+
+  .header {
+    font-family: proxima-nova,arial;
+    margin: 0 0 15px 0 !important;
+    // background-color: #FFFFFF;
+    color: #333333;
+    padding: 0 0 15px 0;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 18px;
+  }
+
+  .titledisplay {
+    font-family: proxima-nova,arial;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre-line;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 3px 0 0 8px;
+  }
+
+  .titledetails {
+    font-family: proxima-nova,arial;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre-line;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 3px;
+    line-height: 30px;
+  }
+
+  .datedisplay {
+    font-family: proxima-nova,arial;
+    color: #333;
+    background-color: #e7e7e7;
+    white-space: pre-line;
+    font-weight: 700;
+    font-size: 22px;
+    height: 35px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 35px;
+    padding-left: 10px;
+  }
+
+  .titlesub {
+    font-family: proxima-nova,arial;
+    color: #333333;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 8px;
+    line-height: 10px;
+  }
+
+  .dateinline {
+    height: 35px;
+    width: 45px;
+    background-color: #f2f2f2;
+    display: inline-block;
+  }
+
+  .box {
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .search {
+    .searchBox {
+      width: 30em;
+      margin: 1em auto;
+    }
+  }
+}

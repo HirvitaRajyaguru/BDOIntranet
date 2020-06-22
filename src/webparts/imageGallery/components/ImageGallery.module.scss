@@ -1,0 +1,29 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.imageGallery {
+  .container {
+    max-width: 100%;
+    margin: 0px auto;
+    //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .cardWrapper {
+    // display: inline-block;
+    position: relative;
+  }
+
+  .margin {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .paddingCol {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0 !important;
+    padding-right: 4px !important;
+    -webkit-box-sizing: border-box;
+    /* box-sizing: border-box; */
+  }
+}

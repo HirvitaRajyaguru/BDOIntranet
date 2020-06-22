@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.9.1",
+    "libraryName": "image-librery",
+    "libraryId": "84380f1c-dd56-4fb5-8784-3fe3e07d81d7",
+    "packageManager": "npm",
+    "isDomainIsolated": "false",
+    "componentType": "webpart",
+    "skipFeatureDeployment": "false",
+    "framework": "react",
+    "componentName": "GlobalPartnerSpeak",
+    "componentDescription": "GlobalPartnerSpeak"
+  }
+}

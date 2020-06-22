@@ -1,0 +1,1 @@
+{"version":3,"file":"ITaskItem.d.ts","sourceRoot":"","sources":["../../../../src/webparts/myTasks/components/ITaskItem.ts"],"names":[],"mappings":"AACA,MAAM,WAAW,SAAS;IACxB,KAAK,EAAE,MAAM,CAAC;IACd,WAAW,EAAE,MAAM,CAAC;IACpB,EAAE,EAAE,MAAM,CAAC;IACX,OAAO,EAAE,MAAM,CAAC;CACjB"}

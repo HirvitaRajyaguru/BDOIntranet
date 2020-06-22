@@ -1,0 +1,1 @@
+{"version":3,"file":"Surveys.d.ts","sourceRoot":"","sources":["../../../../src/webparts/surveys/components/Surveys.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAE/B,OAAO,EAAE,aAAa,EAAE,MAAM,iBAAiB,CAAC;AAGhD,MAAM,CAAC,OAAO,cAAe,SAAQ,KAAK,CAAC,SAAS,CAAC,aAAa,EAAE,EAAE,CAAC;IAC9D,MAAM,IAAI,KAAK,CAAC,YAAY,CAAC,aAAa,CAAC;CAkBnD"}

@@ -1,0 +1,113 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.starPerformers {
+  .container {
+    background: #FFFFFF;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 10px 15px;
+    /*border-top: 6px solid #0b5861;*/
+    //  border-top: 4px solid #54AEE1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    font-family: proxima-nova,arial !important;
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    // color: #54AEE1;
+    margin: 0 auto 15px;
+    border-bottom: 1px solid #e9e9e9;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+
+  h3 {
+    font-family: proxima-nova,arial !important;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 auto;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+
+    a.previousButton {
+      width: 0px !important;
+    }
+
+    .slick-slide img {
+      height: 75px;
+      width: 105px;
+      border: 1px solid #FFF;
+    }
+
+    .ms-Persona-image img {
+      height: 75px;
+      width: 105px;
+    }
+
+    .ms-Persona-details {
+      font-family: proxima-nova,arial;
+      font-size: 16px;
+      font-weight: 700;
+      color: #333333;
+    }
+
+    .ms-Persona-secondaryText {
+      font-family: proxima-nova,arial;
+      font-size: 14px;
+      font-weight: 400;
+      color: #333333;
+    }
+  }
+
+  .margin {
+    margin: 10px;
+  }
+
+  p {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: proxima-nova,arial !important;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+  }
+
+  .viewAll {
+    //position: absolute;
+    //right: 15px;
+    float: right;
+    bottom: 2px;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 7px;
+    text-decoration: none;
+  }
+
+  .readMore {
+    color: #428bca;
+    text-decoration: none;
+    display: block;
+    font-family: proxima-nova,arial !important;
+    font-weight: 400;
+  }
+
+  img {
+    width: 80px;
+    border-radius: 50%;
+    // height: 80px;
+  }
+
+  .paddingtop {
+    padding-top: 10px;
+  }
+}

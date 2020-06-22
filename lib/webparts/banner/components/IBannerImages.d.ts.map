@@ -1,0 +1,1 @@
+{"version":3,"file":"IBannerImages.d.ts","sourceRoot":"","sources":["../../../../src/webparts/banner/components/IBannerImages.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,aAAa;IAC1B,QAAQ,EAAE,MAAM,CAAC;IACjB,iBAAiB,EAAE,MAAM,CAAC;IAC1B,OAAO,EAAE,MAAM,CAAC;IAChB,SAAS,EAAE,MAAM,CAAC;IAClB,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAE,MAAM,CAAC;CACnB"}

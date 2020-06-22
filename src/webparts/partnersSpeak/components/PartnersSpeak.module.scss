@@ -1,0 +1,76 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.partnersSpeak {
+  .container {
+    background: #FFFFFF;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 15px;
+    border-top: 6px solid #0b5861;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    font-family: 'proxima-nova';
+    margin: 10px 15px 0 15px !important;
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 17px;
+    border-bottom: 1px solid #0b5861;
+    padding: 0 0 5px 0;
+  }
+
+  .title {
+    font-family: 'proxima-nova';
+    margin: 10px 15px 0 15px !important;
+    background-color: #FFFFFF;
+    /*color: #333333;*/
+    color: black;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0 0 5px 0;
+  }
+
+  .description {
+    font-family: 'proxima-nova';
+    margin: 10px 15px 0 15px !important;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    padding: 0 0 5px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .descriptionpage {
+    font-family: 'proxima-nova';
+    background-color: #FFFFFF;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .viewAll {
+    right: 0px;
+    bottom: 0;
+    width: 25px;
+    margin: 10px 15px 0 !important;
+  }
+
+  .containerpage {
+    background: #FFFFFF;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .imageStyle {
+    width: 600px;
+    margin-bottom: 10px;
+    height: 300px;
+  }
+}

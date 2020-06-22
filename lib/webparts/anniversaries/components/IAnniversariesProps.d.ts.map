@@ -1,0 +1,1 @@
+{"version":3,"file":"IAnniversariesProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/anniversaries/components/IAnniversariesProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AACnD,OAAO,EAAE,0BAA0B,EAAE,MAAM,+BAA+B,CAAC;AAE3E,MAAM,WAAW,iBAAkB,SAAQ,0BAA0B;IACnE,OAAO,EAAE,MAAM,CAAC;IAChB,aAAa,EAAE,aAAa,CAAC;IAC7B,gBAAgB,EAAE,MAAM,CAAC;CAC1B"}

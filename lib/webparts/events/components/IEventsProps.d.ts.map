@@ -1,0 +1,1 @@
+{"version":3,"file":"IEventsProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/events/components/IEventsProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,mBAAmB,EAAE,MAAM,wBAAwB,CAAC;AAE7D,MAAM,WAAW,YAAa,SAAQ,mBAAmB;IACvD,WAAW,EAAE,OAAO,CAAC;IACrB,OAAO,EAAE,MAAM,CAAC;IAChB,YAAY,EAAE,YAAY,CAAC;CAC5B"}
