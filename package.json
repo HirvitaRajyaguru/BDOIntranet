@@ -28,7 +28,7 @@
     "@types/react-dom": "16.8.3",
     "@types/webpack-env": "1.13.1",
     "@uifabric/fluent-theme": "^0.16.7",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "globalize": "^1.4.2",
     "html2canvas": "^1.0.0-rc.5",
     "in": "^0.17.0",
